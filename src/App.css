@@ -1,0 +1,58 @@
+#linktree {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile_img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#name {
+  margin-bottom: 30px;
+}
+
+a, #twitter {
+  display: block;
+  width: 85vw; 
+  height: 20px;
+  padding: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  color: black !important;
+  background-color: #d3d3d3;
+  text-align: center;
+  text-decoration: none !important;
+  border-radius: 5px;
+}
+
+#contact-div {
+  margin: 10vh 20vw;
+}
+
+@media only screen and (max-width: 600px) {
+  #contact-div {
+    margin: 7vh 5vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #first_name {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 817px) {
+  #check-div {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+#checkbox {
+  margin-right: 10px;
+}
